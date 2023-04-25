@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_add_card">
+
+
+    <EditText
+        android:id="@+id/editquestion"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:hint="@string/hinttext" />
+
+
+    <EditText
+        android:id="@+id/editanswer1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:hint="@string/hinttextanser"
+        android:layout_below="@id/editquestion"/>
+
+
+
+    <EditText
+        android:id="@+id/editanswer2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:hint="@string/hinttextanser"
+        android:layout_below="@id/editanswer1"/>
+
+
+    <EditText
+        android:id="@+id/editanswer3"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:hint="@string/hinttextanserRight"
+        android:layout_below="@id/editanswer2"/>
+    <TextView
+        android:id="@+id/btnsave"
+        android:layout_width="150sp"
+        android:layout_height="60sp"
+        android:layout_below="@id/editanswer3"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/bagroungcolor"
+        android:gravity="center"
+        android:text="@string/Savebtn"
+        android:textColor="@color/fontcolor"
+        android:textSize="30sp" />
+
+
+    <ImageView
+        android:id="@+id/btncancel"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/fontcolor"
+        android:scaleType="center"
+        android:src="@drawable/ic_cancel_foreground"
+        android:layout_alignParentEnd="true"
+        android:layout_alignLeft="@id/btnsave"
+        android:layout_below="@id/editanswer3"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20sp"
+        android:layout_marginBottom="20dp"
+        />
+
+
+
+</RelativeLayout>

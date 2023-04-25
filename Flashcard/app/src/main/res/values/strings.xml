@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">FlashCard</string>
+    <string name="welcomeword">Salut !! bienvenue</string>
+    <string name="Flashpub">  Vos questions et reponses.</string>
+    <string name="question">Qui a creer cette application?</string>
+    <string name="answer1">Pierre wins</string>
+    <string name="answer2">John widno Dorcy </string>
+    <string name="answer3">Jeunne Naid </string>
+    <string name="Savebtn">Save</string>
+    <string name="hinttext">saisir une question!</string>
+    <string name="retourbtn">cliquer ici pour retourner </string>
+    <string name="hinttextanser">Saisir la reponse ici..</string>
+    <string name="hinttextanserRight">SaiSier la bonne reponse ici</string>
+    <string name="Sna">Desolé !!! Vous avez laissez un ou plusieurs champs vide...</string>
+    <string name="snackbar_text">Desole</string>
+    <string name="prevbtn"> bouton de retour en avant</string>
+    <string name="nextbtn"> bouton de retour en ariere</string>
+    <string name="nouvellequestion">nouvelle question</string>
+    <string name="labelvuetext">Toutes les questions </string>
+
+</resources>

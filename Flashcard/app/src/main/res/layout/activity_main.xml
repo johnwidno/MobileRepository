@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:isScrollContainer="true"
+    >
+
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/bagroungcolor"
+        android:gravity="center"
+        android:text="@string/welcomeword"
+        android:textColor="@color/fontcolor"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/flashpub"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/welcome"
+        android:background="@color/bagroungcolor"
+        android:text="@string/Flashpub"
+        android:textColor="@color/fontcolor"
+        android:textSize="20sp"
+        tools:ignore="VisualLintOverlap,TextSizeCheck"
+
+
+        />
+
+
+    <ImageView
+        android:id="@+id/listviewbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/welcome"
+        android:layout_alignParentEnd="true"
+        android:background="@color/bagroungcolor"
+        android:text="@string/Flashpub"
+        android:textColor="@color/fontcolor"
+        android:textSize="24sp"
+        android:src="@drawable/ic_list_foreground"
+        tools:ignore="VisualLintOverlap,TextSizeCheck"
+             />
+
+
+    <TextView
+        android:id="@+id/questiontextview"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_below="@+id/welcome"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="@string/question"
+        android:textSize="35sp"
+        />
+
+
+    <TextView
+        android:id="@+id/txtVanswer1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/questiontextview"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginEnd="10sp"
+        android:layout_marginBottom="10sp"
+        android:background="@color/bagroungcoloranswer"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="@string/answer1"
+        android:textColor="@color/fontcolor"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/txtVanswer2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/txtVanswer1"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginEnd="10sp"
+        android:layout_marginBottom="10sp"
+        android:background="@color/bagroungcoloranswer"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="@string/answer2"
+        android:textColor="@color/fontcolor"
+        android:textSize="25sp" />
+
+
+    <TextView
+        android:id="@+id/txtVanswer3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/txtVanswer2"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginEnd="10sp"
+        android:background="@color/bagroungcoloranswer"
+        android:textColor="@color/fontcolor"
+        android:layout_marginBottom="10sp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="@string/answer3"
+        android:textSize="25sp"
+        />
+
+    <ImageView
+        android:id="@+id/previousbtn"
+        android:layout_width="40sp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/txtVanswer3"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="@string/prevbtn"
+        android:scaleType="center"
+        android:src="@drawable/iic_previous_foreground"
+        />
+
+
+
+
+    <ImageView
+        android:id="@+id/NextBtn"
+        android:layout_width="40sp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/txtVanswer3"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:scaleType="center"
+        android:src="@drawable/iic_nextbt_foreground"
+        android:contentDescription="@string/nextbtn"
+        />
+
+    <ImageView
+        android:id="@+id/deletebtn"
+        android:layout_width="80sp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/txtVanswer3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:scaleType="center"
+        android:src="@drawable/ic_delete_foreground"
+        android:contentDescription="@string/nextbtn"
+        />
+
+
+       <ImageView
+        android:id="@+id/btnaddnew"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:scaleType="center"
+        android:src="@drawable/ic_add_btn__foreground"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/nouvellequestion"
+        />
+
+
+
+
+
+
+
+
+</RelativeLayout>
