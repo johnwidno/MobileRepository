@@ -1,26 +1,19 @@
-# FlashCard-projet vs2
-
-## Lab 2
+## Lab 3
 
 ### App Description
-This is the second part of my flash card you can edit question question answer then display them
+Saving data in database with room dependencies and listing question by clicking on a next button .
+diplay the list of question with the right answers.
 
-### App Walk-though
-
-<img src="https://user-images.githubusercontent.com/100108327/231837327-57a6948c-5448-4e23-81b8-6d975fcf40f2.gif" width=200><br>
-
+<img src="YOUR_GIF_URL_HERE" width=200><br>
 
 
 ## Required
-- [x] User can click on a ‘+’ button that takes the user to new ‘Add Card Screen’
-- [x] The 'Add Card Screen' has a cancel button to take the user back to the main screen
-- [x] User can enter and submit a Question and Answer through the 'Add Card Screen'
-- [x] er will see the card they just created on the main screen when they press the 'Save Button'
-- [x] Push your progress to GitHub!
+- [x] User can create a card and still see their created card when the app is relaunched.
+- [x] User can create muliple cards and browse through all created cards
 
 ## Optional
-- [x] User can edit a card
-- [x] n error message is shown if the user doesn't enter both a Question and an Answer
-- [x] A notification is shown if the card was created successfully
-- [x] User can also enter multiple choice answers when creating a card
-- [x] App is further styled and customized!
+- [x] User can delete a card and no longer see it in their deck anymore
+- [x] Flashcards are shown in random order instead of the order they were created in
+- [ ] User can edit a card and see the edit saved when they browse through their deck of cards
+- [x] User can create flashcards with multiple answers and be able to browse through cards with multiple choice answers shown
+- [x] User can display question in a listvieuw with their right answer.
